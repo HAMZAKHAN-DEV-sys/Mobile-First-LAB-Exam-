@@ -3,6 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Space+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Space+Mono&display=swap');
 
+/* Media Query for Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .box {
+        flex: 1 1 100%; /* 1 column on mobile */
+    }
+}
+
+
+
+
 :root {
   --mainfont: poppins, times, serif;
 }
